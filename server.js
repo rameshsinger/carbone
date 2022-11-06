@@ -15,16 +15,16 @@ app.post('/report', function (req, res) {
       let templatePath=req.body.templatePath;
       let destinationPath=req.body.destinationPath;
       let reportData=req.body.reportData;
-      carbone.render(templatePath, reportData, {}, function(err, result){
+      carbone.render(templatePath, reportData, {}, function(err,result ){
         if (err) {
-            console.log(err);
+          console.log(err);
             res.send('Failure')
             return;
         }
         fs.writeFileSync(destinationPath, result);
         console.log("File Generated successfully:"+destinationPath)
         res.send('SUCCESS')
-        process.exit(); // to kill automatically LibreOffice workers
+        // process.exit(); // to kill automatically LibreOffice workers
       });
 });
 app.listen(port, () => {

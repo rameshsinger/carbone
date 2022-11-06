@@ -10,7 +10,7 @@ var data = {
     convertTo : 'pdf' //can be docx, txt, ...
   };
 
-  carbone.render('./examples/TestReport.docx', data, options, function(err, result){
+  carbone.render('./examples/simpleImage.odt', data, options, function(err, result){
     if (err) return console.log(err);
     fs.writeFileSync('result.pdf', result);
     process.exit(); // to kill automatically LibreOffice workers
