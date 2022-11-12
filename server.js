@@ -3,19 +3,19 @@ const fs = require('fs');
 const carbone = require('./lib/index');
 const app = express()
 const port = 3000
-app.use(express.json());
+app.use(express.json({limit: '150mb'}));
 app.use(express.bodyParser({limit: '150mb'}));
 app.get('/', (req, res) => {
   res.send('Report Generatr Running')
 })
 var options = {
-    convertTo : 'pdf' //can be docx, txt, ...
+    convertTo : 'docx' //can be docx, txt, ...
   };
 app.post('/report', function (req, res) {  
       let templatePath=req.body.templatePath;
       let destinationPath=req.body.destinationPath;
       let reportData=req.body.reportData;
-      carbone.render(templatePath, reportData, {}, function(err,result ){
+      carbone.render(templatePath, reportData, options, function(err,result ){
         if (err) {
           console.log(err);
             res.send('Failure')
