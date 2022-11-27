@@ -4,7 +4,6 @@ const carbone = require('./lib/index');
 const app = express()
 const port = 3000
 app.use(express.json({limit: '150mb'}));
-app.use(express.bodyParser({limit: '150mb'}));
 app.get('/', (req, res) => {
   res.send('Report Generatr Running')
 })
