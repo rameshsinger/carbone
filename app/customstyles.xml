@@ -1,0 +1,41 @@
+
+<style:style style:name="snParagraphTitle" style:family="paragraph" style:parent-style-name="Text">
+<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.212cm" style:contextual-spacing="false" fo:line-height="150%"/>
+<style:text-properties fo:font-size="12pt" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" style:font-size-asian="12pt" style:font-weight-asian="bold"/>
+</style:style>
+
+<style:style style:name="snBorderTable" style:family="table">
+<style:table-properties style:width="15.76cm" style:rel-width="99%" fo:margin-left="0.009cm" fo:margin-top="0cm" fo:margin-bottom="0cm" table:align="left" style:writing-mode="lr-tb"/>
+</style:style>
+
+<style:style style:name="snTableColumn" style:family="table-column"><style:table-column-properties style:column-width="3.14cm" style:rel-column-width="13054*"/>
+</style:style>
+
+<style:style style:name="snTableRow" style:family="table-row"><style:table-row-properties style:min-row-height="0.482cm" fo:keep-together="auto"/></style:style>
+
+<style:style style:name="snTableTableRowCell" style:family="table-cell">
+<style:table-cell-properties fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb"/>
+</style:style>
+
+<style:style style:name="snTableCellHeader" style:family="paragraph" style:parent-style-name="Standard"><style:paragraph-properties fo:text-align="center" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+<style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-weight="bold" style:letter-kerning="false" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+</style:style>
+
+<style:style style:name="snTableCellBody" style:family="paragraph" style:parent-style-name="Standard">
+<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+<style:text-properties fo:color="#000000" loext:opacity="100%" style:font-name="Arial" fo:font-size="10pt" style:letter-kerning="false" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="TW" style:font-name-complex="Arial2" style:font-size-complex="10pt"/>
+</style:style>
+
+
+<style:style style:name="snTableCaptionText" style:family="text">
+<style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-size="11pt" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+</style:style>
+
+<style:style style:name="snTableCaptionPara" style:family="paragraph" style:parent-style-name="caption">
+<style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+</style:style>
+
+
+<style:style style:name="snTableHeaderCellStyle" style:family="table-cell">
+<style:table-cell-properties style:vertical-align="middle" fo:background-color="#d8d8d8" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="0.5pt solid #000000" style:writing-mode="lr-tb">
+<style:background-image/></style:table-cell-properties></style:style>
