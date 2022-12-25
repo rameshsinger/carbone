@@ -43,3 +43,22 @@
 <style:style style:name="snImageCaptionSpan" style:family="text">
 <style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-size="10pt" fo:language="fr" fo:country="FR" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
 </style:style>
+
+<style:style style:name="snEmiSucTable" style:family="table">
+<style:table-properties style:width="15.921cm" style:rel-width="100%" fo:margin-left="0.018cm" fo:margin-top="0cm" fo:margin-bottom="0cm" table:align="left" style:writing-mode="lr-tb"/>
+</style:style>
+
+<style:style style:name="snEmiSucTableColumn" style:family="table-column"><style:table-column-properties style:column-width="1.27cm" style:rel-column-width="5229*"/></style:style>
+
+
+<style:style style:name="snEmiSucTableRow" style:family="table-row"><style:table-row-properties style:min-row-height="0.75cm" fo:keep-together="auto"/></style:style>
+
+<style:style style:name="snEmiSucTableCell" style:family="table-cell">
+<style:table-cell-properties fo:background-color="#d8d8d8" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="1pt solid #000000" style:writing-mode="lr-tb"><style:background-image/>
+</style:table-cell-properties></style:style>
+
+
+<style:style style:name="snEmiSucTableCellHeaderPara" style:family="paragraph" style:parent-style-name="Table_20_Heading">
+<style:paragraph-properties fo:margin-top="0.071cm" fo:margin-bottom="0.071cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+<style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-size="10pt" style:letter-kerning="false" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+</style:style>
