@@ -48,7 +48,7 @@
 <style:table-properties style:width="15.921cm" style:rel-width="100%" fo:margin-left="0.018cm" fo:margin-top="0cm" fo:margin-bottom="0cm" table:align="left" style:writing-mode="lr-tb"/>
 </style:style>
 
-<style:style style:name="snEmiSucTableColumn" style:family="table-column"><style:table-column-properties style:column-width="1.27cm" style:rel-column-width="5229*"/></style:style>
+<style:style style:name="snEmiSucTableColumn" style:family="table-column"><style:table-column-properties style:column-width="5.271cm" style:rel-column-width="21692*"/></style:style>
 
 
 <style:style style:name="snEmiSucTableRow" style:family="table-row"><style:table-row-properties style:min-row-height="0.75cm" fo:keep-together="auto"/></style:style>
@@ -62,3 +62,23 @@
 <style:paragraph-properties fo:margin-top="0.071cm" fo:margin-bottom="0.071cm" style:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
 <style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-size="10pt" style:letter-kerning="false" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
 </style:style>
+
+<style:style style:name="snEmiSucTableCellBodyPara" style:family="paragraph" style:parent-style-name="Standard"><style:paragraph-properties fo:margin-top="0.071cm" fo:margin-bottom="0.071cm" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/>
+<style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-size="10pt" style:letter-kerning="false" style:font-size-asian="10pt" style:font-size-complex="10pt"/></style:style>
+
+<style:style style:name="snEmiSucTableRowBody" style:family="table-row"><style:table-row-properties style:min-row-height="1.672cm" fo:keep-together="auto"/></style:style>
+
+<style:style style:name="snEmiSucTableCellBody" style:family="table-cell"><style:table-cell-properties style:vertical-align="middle" fo:padding-left="0.191cm" fo:padding-right="0.191cm" fo:padding-top="0cm" fo:padding-bottom="0cm" fo:border="1pt solid #000000" style:writing-mode="lr-tb"/></style:style>
+
+
+<style:style style:name="snEmiSucTableSlCellBody" style:family="paragraph" style:parent-style-name="List_20_Paragraph" style:list-style-name="WWNum16">
+<style:paragraph-properties fo:margin-top="0.071cm" fo:margin-bottom="0.071cm" style:contextual-spacing="true" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2"/><style:text-properties style:use-window-font-color="true" loext:opacity="0%" fo:font-size="10pt" style:letter-kerning="false" style:font-size-asian="10pt" style:font-size-complex="10pt"/></style:style>
+
+<style:style style:name="snEmiSucTableSlColumn" style:family="table-column"><style:table-column-properties style:column-width="1.27cm" style:rel-column-width="5229*"/></style:style>
+
+
+<style:style style:name="snEmiSucTableStatusColumn" style:family="table-column"><style:table-column-properties style:column-width="3.521cm" style:rel-column-width="14494*"/></style:style>
+
+<style:style style:name="uncertainDesc" style:family="paragraph" style:parent-style-name="Text"><style:text-properties style:use-window-font-color="true" loext:opacity="0%"/></style:style>
+
+<style:style style:name="uncertainDescNonePara" style:family="paragraph" style:parent-style-name="Text"><style:paragraph-properties fo:margin-left="12.54cm" fo:margin-right="0cm" fo:text-indent="0.286cm" style:auto-text-indent="false"/></style:style>
