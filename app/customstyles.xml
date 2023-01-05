@@ -82,3 +82,6 @@
 <style:style style:name="uncertainDesc" style:family="paragraph" style:parent-style-name="Text"><style:text-properties style:use-window-font-color="true" loext:opacity="0%"/></style:style>
 
 <style:style style:name="uncertainDescNonePara" style:family="paragraph" style:parent-style-name="Text"><style:paragraph-properties fo:margin-left="12.54cm" fo:margin-right="0cm" fo:text-indent="0.286cm" style:auto-text-indent="false"/></style:style>
+
+
+<style:style style:name="TableCustom.titleP" style:family="paragraph" style:parent-style-name="Standard"><style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false" fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" fo:keep-with-next="always"/></style:style>
