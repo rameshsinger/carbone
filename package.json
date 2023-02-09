@@ -27,9 +27,11 @@
     "dayjs": "=1.10.7",
     "debug": "=4.3.2",
     "express": "^4.18.2",
+    "unzipper": "^0.10.11",
     "which": "=2.0.2",
     "yauzl": "=2.10.0",
-    "yazl": "=2.5.1"
+    "yazl": "=2.5.1",
+    "zip-local": "^0.3.5"
   },
   "devDependencies": {
     "mocha": "=9.1.3"
